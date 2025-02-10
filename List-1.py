@@ -15,7 +15,7 @@ print("Rick And Morty" in subject) #output = False, beacuse it's not in the subj
 
 print("Rick And Morty" not in subject) #output = True, beacuse it's not in the subject 
 
-print(subject + ("Rick And Morty", 27)) #Too add with subject
+print(subject + ["Rick And Morty", 27]) #Too add with subject
 
 print(subject * 2) #it will print it twise
 
