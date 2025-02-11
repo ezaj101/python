@@ -1,5 +1,5 @@
 subject = ["Doreamon", "Ben10", "Tom And Jerry", "Oggy"] # it starts from 0 so (Doreamon=0), (Ben10=1), (Tom And Jerry=2), (Oggy=3)
-list always starts with third bracket []
+#list always starts with third bracket []
 
 print(subject)
 
