@@ -1,0 +1,6 @@
+n = int(input("Enter your last number :")) #it depend what you put the value of suppose n = 5 (output = 17) 2 + 1 + 2 + 3 + 4 + 5 = 17
+sum = 2 
+for u in range (1,n+1,1): # n+1 because in series if you put value it end before it. If 5 is the value, it gonna end on 4
+    sum = sum + u
+print(sum) 
+
