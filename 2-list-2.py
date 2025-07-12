@@ -22,8 +22,8 @@ print(subject)
 subject.clear() #it will clear everything 
 print(subject) #output= []
 
-pos = subject.index("Oggy") #position stay with a (variable = pos). it will tell you the position of the subject you need. 
-print(pos) #output = 3 which is(oggy)
+print(subject.index("Oggy")) #position stay with a (variable = pos). it will tell you the position of the subject you need. 
+output = 3 which is(oggy)
 
-pos = subject.count("Oggy") #it will tell you how many same subjects are there in the same list.
-print(pos) #output = 1 because oggy is only 1 in the list. if there are 2 oggy on the list then the output can be 2
+(subject.count("oggy")) #it will tell you how many same subjects are there in the same list.
+ output = 1 because oggy is only 1 in the list. if there are 2 oggy on the list then the output can be 2
