@@ -7,5 +7,9 @@ print(sum)
 Short way
 
 n = int(input("Enter your last number: "))
-total = 2 + n * (n + 1) // 2
+total = 2 + n * (n + 1) // 2 #Last 2 is for dividing (2 + suppose n = 5 * ( 5 + 1 ) // 2 ) = 17
 print(total)
+
+#// is integer division (floor division), ensuring the result is an integer (not a float).
+Regular division (/) in Python returns a float (e.g., 6 / 2 = 3.0), but // gives 3
+
